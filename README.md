@@ -10,6 +10,7 @@ identify high value customers
 
 ### Data Structure Overview
 ___
+![Data Model](Bike-Store-Sales-KPI-Analysis/Data-Model.jpg)
 Product Lookup:
 Product Category Lookup:
 Product Subcategory lookup:
