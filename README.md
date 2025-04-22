@@ -1,5 +1,5 @@
 # AdventureWorks-Sales-KPI-Analysis (2020-2022)
-___
+
 ### Table of Contents
 [Project Background](#project-background) |
 [Data Structure](#data-structure-overview) |
@@ -8,7 +8,7 @@ ___
 [Recommendations](#recommendations)]
 
 ## **Project Background**
-___
+
 AdventureWorks, a global manufacturing company that produces cycling equipment and accessories
 
 KPI (sales, revenue, profits, returns)
@@ -20,30 +20,28 @@ Analyze product-level trends
 identify high value customers
 
 ## **Data Structure Overview**
-___
+
 ![Data Model](/DataModel.jpg)
 
-Product Lookup:
+- **Sales Data:** Contains order details, quantities, prices, dates, and links to customers, products, and territories.
 
-Product Category Lookup:
+- **Returns Data:** Includes return dates, quantities, and associated products and regions.
 
-Product Subcategory lookup:
+- **Product Lookup:** Holds product metadata including categories (e.g., Bikes, Accessories) and subcategories (e.g., Tires and Tubes).
 
-Customer Lookup:
+- **Customer Lookup:** Demographics such as income, birth year, occupation, education level, etc.
 
-Territory Lookup:
+- **Calendar Table:** Supports time-based analysis (year, month, quarter).
 
-Sales Data:
+- **Territory Lookup:** Breaks down regional data by country and continent.
 
-Returns Data:
-
-Calendar:
+- **Measure Table:** Custom DAX KPIs and calculated metrics including adjusted profit, return %, and revenue per customer.
 
 ## **Executive Summary**
-___
+
 
 ## **Deep Dive Insights**
-___
+
 
 ## **Recommendations**
-___
+
